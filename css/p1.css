@@ -1,0 +1,537 @@
+.banner {
+  position: relative;
+  margin-top: 30px;
+}
+
+.problem,
+.banner,
+.audi {
+  padding: 0 4em;
+}
+
+.banner .bor {
+  display: flex;
+  align-items: center;
+}
+
+.banner img {
+  width: 100%;
+}
+
+h3 {
+  font-weight: 700;
+  margin-bottom: 0px;
+}
+
+.b-left .subtitle {
+  font-size: 16px;
+  margin-bottom: 30px;
+}
+
+.problem,
+.solution,
+.audi,
+.competitors,
+.persona,
+.feature,
+.interface,
+.techonology {
+  margin-top: 150px;
+}
+
+.problem h3,
+.solution h3,
+.audi h3,
+.competitors h3,
+.persona h3 {
+  letter-spacing: 2px;
+}
+
+.problem .subtitle {
+  margin-top: 60px;
+  font-weight: 700;
+}
+
+.problem .icon {
+  margin-right: 60px;
+}
+
+.problem .font {
+  margin-top: 30px;
+}
+
+.problem .icon img {
+  width: 60px;
+}
+
+.problem .desc {
+  padding-right: 8%;
+}
+
+.solution .menu {
+  background: black;
+  height: 35px;
+  border-radius: 0 35px 35px 0;
+  position: relative;
+  color: white;
+  font-weight: 700;
+  margin-top: 60px;
+  width: 90%;
+}
+
+.solution .menu span {
+  margin-left: 60%;
+}
+
+.solution .menu-selected {
+  background: #BB3939;
+  height: 35px;
+  border-radius: 0 35px 35px 0;
+  position: absolute;
+  top: 0;
+  width: 50%;
+  padding-left: 4em;
+}
+
+.solution .rule {
+  display: flex;
+  margin-top: 30px;
+}
+
+.solution .rule .bor {
+  flex: 1;
+}
+
+.solution h3 {
+  padding-left: 4em;
+}
+
+.solution .rule .bor p {
+  margin-left: 4em;
+}
+
+.solution .rule .bor:nth-child(2) p {
+  margin-left: 10%;
+}
+
+.solution .note {
+  background: #fbf4f4;
+  width: 270px;
+  height: 160px;
+  border-radius: 20px;
+  margin: 0px auto;
+  margin-top: 60px;
+  display: flex;
+}
+
+.solution .note .note-bor {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.solution .note .note-bor .tit {
+  font-weight: 700;
+}
+
+.solution .note .note-bor .desc {
+  margin-top: 15px;
+  line-height: 22px;
+}
+
+
+.line {
+  width: 33%;
+  position: absolute;
+  bottom: 0px;
+  height: 4px;
+  background: #BB3939;
+  left: 50%;
+  margin-left: -15%;
+}
+
+.solution-bor {
+  padding-bottom: 80px;
+}
+
+.audi .tit {
+  display: flex;
+  align-items: flex-end;
+  font-weight: 700;
+  margin-top: 60px;
+}
+
+.audi .con ul li {
+  font-size: 14px;
+}
+
+.audi .con {
+  margin-top: 30px;
+}
+
+.audi .tit img {
+  width: 60px;
+  height: 60px;
+  margin-left: 45px;
+}
+
+.audi .col-xs-4 {
+  margin: 0px;
+}
+
+.competitors {
+  overflow: hidden;
+}
+
+.competitors .die img {
+  width: 100%;
+}
+
+.competitors .pic .tit {
+  margin-top: 60px;
+}
+
+.competitors .desc {
+  margin: 30px 0 30px 0;
+}
+
+.competitors .star {
+  margin-top: 117px;
+}
+
+.competitors .google {
+  margin-bottom: 15px;
+}
+
+.competitors .star img {
+  width: 100%;
+}
+
+.competitors .star-text {
+  margin-top: 40px;
+}
+
+.star2 {
+  margin-top: 15px;
+}
+
+.avalon {
+  margin-top: 60px;
+  overflow: hidden;
+}
+
+.avalon .con {
+  display: flex;
+  align-items: center;
+}
+
+.avalon .picture {
+  width: 80%;
+  margin: 0px auto;
+}
+
+.avalon .booktext {
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.avalon .subtit {
+  padding: 30px 0 30px 0;
+}
+
+.avalon .pros {
+  margin-bottom: 30px;
+}
+
+.bottomline {
+  background: #BB3939;
+  height: 35px;
+  width: 50%;
+  float: right;
+  border-radius: 35px 0 0 35px;
+  padding-left: 8%;
+  color: white;
+  line-height: 35px;
+  font-weight: 700;
+  margin-top: 120px;
+}
+
+.line-bor {
+  overflow: hidden;
+}
+
+.persona {
+  overflow: hidden;
+}
+
+.persona-bor {
+  margin-top: 60px;
+  background: #fbf4f4;
+  border-radius: 20px;
+  padding: 60px;
+  overflow: hidden;
+}
+
+.persona-bor .uinfo {
+  overflow: hidden;
+}
+
+.persona-bor .uinfo .tit {
+  padding-top: 70px;
+}
+
+.persona-bor .age {
+  margin-top: 15px;
+}
+
+.persona-bor .uinfo .headerimg {
+  text-align: center;
+}
+
+.persona-bor .uinfo .headerimg img {
+  width: 150px;
+  height: 150px;
+}
+
+.persona .ustory {
+  margin-top: 30px;
+}
+
+.feature .subtit {
+  margin: 60px 0 30px 0;
+  position: relative;
+}
+
+.feature .subtit .bgimg {
+  position: absolute;
+  width: 60px;
+  left: 0px;
+  z-index: -1;
+  top: -22px;
+}
+
+.feature .list {
+  overflow: hidden;
+  margin-bottom: 60px;
+}
+
+.feature .rule {}
+
+.feature .img4 {
+  width: 72%;
+}
+
+.feature .img5 {
+  width: 18.5%;
+}
+
+.feature .labTit {
+  margin-top: 150px;
+  margin-bottom: 60px;
+}
+
+.testing .tit {
+  margin: 30px 0 30px 0;
+}
+
+.testing ul li {
+  font-size: 14px;
+  margin-bottom: 20px;
+}
+
+.interface {
+  position: relative;
+  padding-bottom: 120px;
+}
+
+.interface .tit {
+  margin-top: 30px;
+}
+
+.interface .num {
+  color: #BB3939;
+  font-size: 35px;
+  font-weight: 700;
+  font-style: italic;
+}
+
+.interface .list {
+  text-align: center;
+  margin-top: 60px;
+}
+
+.techonology .subtit {
+  margin: 60px 0 30px 0;
+}
+
+.techonology .list .btn {
+  background: #BB3939;
+  color: white;
+  font-weight: 700;
+  border-radius: 25px;
+  padding: 20px 40px 20px 40px;
+}
+
+@media (max-width: 992px) {
+
+  .banner,
+  .solution .menu-selected,
+  .solution h3,
+  .problem,
+  .solution .rule .bor p,
+  .solution .menu,
+  .audi {
+    padding-right: 15px;
+    padding-left: 15px;
+  }
+
+  .problem,
+  .solution,
+  .audi,
+  .competitors,
+  .interface,
+  .techonology {
+    margin-top: 80px;
+  }
+
+  .banner .bor {
+    display: inline-block;
+  }
+
+  .b-right {
+    margin-top: 30px;
+  }
+
+  .problem .icon img {
+    width: 30px;
+  }
+
+  .problem .subtitle {
+    padding-right: 18%;
+    margin-top: 50px;
+  }
+
+  .problem .icon {
+    margin-right: 30px;
+  }
+
+  .problem .flex-parent {
+    align-items: baseline;
+    margin-top: 30px;
+  }
+
+  .solution .menu {
+    width: 40%;
+    margin-top: 30px;
+  }
+
+  .solution .menu p,
+  .solution .menu-selected p {
+    margin-bottom: 0;
+  }
+
+  .solution .menu-selected {
+    position: relative;
+    width: 70%;
+    text-align: center;
+    color: white;
+    margin-top: 30px;
+    font-weight: 700;
+  }
+
+  .solution .note {
+    margin-top: 30px;
+  }
+
+  .solution .rule .bor p {
+    margin-left: 0px;
+  }
+
+  .line {
+    width: 60%;
+    margin-left: -30%;
+  }
+
+  .competitors .star {
+    margin-top: 30px;
+  }
+
+
+  .avalon .con {
+    display: inline-block;
+    align-items: center;
+  }
+
+  .avalon .picbor {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+
+  .bottomline {
+    width: 85%;
+    margin-top: 30px;
+  }
+
+  .pain div:nth-child(2) {
+    margin-top: 30px;
+  }
+
+  .feature .img4 {
+    width: 100%;
+  }
+
+  .feature .img5 {
+    width: 100%;
+  }
+
+  .feature .subtit {
+    position: relative;
+  }
+
+
+
+  .feature .m-last-phone {
+    display: flex;
+    align-items: center;
+  }
+
+  .feature .m-last-phone div:nth-child(1) {
+    width: 25%;
+  }
+
+  .feature .m-last-phone div:nth-child(2) {
+    flex: 1;
+    padding-left: 30px;
+  }
+
+  .feature .labTit {
+    margin-top: 60px;
+  }
+
+  .interface .list {
+    margin-top: 30px;
+  }
+  .interface {
+    padding-bottom: 80px;
+  }
+  .techonology .list {
+    text-align: center;
+  }
+  .techonology .mblist {
+    display: flex;
+  }
+  .techonology .subtit {
+    margin-top: 45px;
+  }
+  .techonology .mblist div {
+    width: 50%;
+  }
+  .techonology .list .btn {
+    width: 60%;
+    margin: 0px auto;
+    color: white;
+    margin-top: 120px;
+  }
+}

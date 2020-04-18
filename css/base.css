@@ -1,0 +1,214 @@
+/* CSS RESET */
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  font-family: 'Montserrat', helvetica, arial, sans-serif !important;
+  font-size: 14px;
+  color: #4a4a4a;
+  line-height: 27px;
+  -webkit-font-smoothing: subpixel-antialiased;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Montserrat', helvetica, sans-serif !important;
+}
+
+h1 {
+  font-size: 45px;
+  color: #2E3951;
+  letter-spacing: 2px;
+  line-height: 55px;
+}
+
+h2 {
+  font-size: 28px;
+  color: #2E3951;
+  letter-spacing: 2px;
+  line-height: 40px;
+  font-weight: 600;
+}
+
+h3 {
+  font-size: 16px;
+  color: #000000;
+  text-align: left;
+  font-weight: 400;
+}
+
+h4,
+h5,
+h6 {
+  font-size: 1em;
+}
+
+i {
+  font-size: 12px;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+  color: #4a4a4a;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  color: #4A4A4A;
+}
+
+li {
+  font-size: 14px;
+  color: black;
+}
+
+.flex-parent {
+
+  display: flex;
+  align-items: center;
+}
+
+
+.header .title {
+  flex: 1 1 auto;
+  font-weight: 700;
+  font-size: 15px;
+}
+
+
+
+
+.header .h-bor .nav {
+  flex: none;
+}
+
+.nav a {
+  display: block;
+  font-size: 15px;
+  text-align: center;
+  padding: 1.8em 2em;
+  text-decoration: none;
+  font-family: 'Montserrat', helvetica, sans-serif !important;
+  line-height: 30px;
+  clear: right;
+  text-decoration: none;
+  font-weight: 700;
+  margin: 0;
+  cursor: pointer;
+}
+
+.nav a:hover {
+
+  color: #BB3939;
+  font-weight: 800;
+}
+
+.h-m-bor {
+  display: none;
+}
+
+.ham {
+  display: block;
+  float: right;
+  font-size: 30px;
+  cursor: pointer;
+}
+
+.mb-bor {
+  display: none;
+}
+
+.p-box {
+  position: relative;
+}
+
+.no-padd {
+  padding: 0;
+}
+
+.model-bor {
+  padding: 0 4em;
+}
+
+.tit {
+  font-weight: 700;
+}
+
+.picture {
+  width: 100%;
+}
+
+.model-bor h3 {
+  letter-spacing: 2px;
+}
+
+.next {
+  display: flex;
+  justify-content: space-between;
+  font-weight: 700;
+  margin-top: 150px;
+}
+.leftbtn,.rightbtn {
+  cursor: pointer;
+}
+.leftbtn img,
+.rightbtn img {
+  width: 50px;
+}
+
+@media (max-width: 768px) {
+  .header {
+    height: 65px;
+  }
+
+  .header .title {
+    font-size: 22px;
+  }
+
+  .h-bor {
+    display: none;
+  }
+
+  .h-m-bor {
+    display: flex;
+    padding-top: 1em;
+  }
+
+}
+
+@media (max-width: 992px) {
+  .mb-bor {
+    display: block;
+  }
+
+  .lg-bor {
+    display: none;
+  }
+
+  .model-bor {
+    padding-right: 15px;
+    padding-left: 15px;
+  }
+
+  .next {
+    margin-top: 80px;
+  }
+}

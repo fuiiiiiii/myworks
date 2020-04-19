@@ -164,15 +164,19 @@ h1 {
   font-size: 25px;
   font-weight: 700;
 }
+
 .next {
   display: flex;
   justify-content: space-between;
   font-weight: 700;
   margin-top: 150px;
 }
-.leftbtn,.rightbtn {
+
+.leftbtn,
+.rightbtn {
   cursor: pointer;
 }
+
 .leftbtn img,
 .rightbtn img {
   width: 50px;
@@ -199,13 +203,16 @@ h1 {
 }
 
 .footer {
-  margin-top: 150px;
   background: black;
   color: white;
   justify-content: center;
   height: 150px;
 }
 
+.footerbor {
+
+  margin-top: 150px;
+}
 @media (max-width: 992px) {
   .mb-bor {
     display: block;
@@ -229,8 +236,12 @@ h1 {
     font-weight: 700;
   }
 
+  .footerbor {
+
+    margin-top: 60px;
+  }
+
   .footer {
-    margin-top:60px;
     height: 100px;
   }
 }

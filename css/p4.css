@@ -1,0 +1,208 @@
+#p4 {
+  margin-top: 172px;
+}
+
+.tit {
+  font-size: 16px;
+}
+
+.m1 .book {
+  text-align: center;
+}
+
+.m1 {
+  display: flex;
+  align-items: center;
+}
+
+.m1 .subtit {
+  /* font-size: 12px; */
+  color: rgba(8, 6, 43, 1);
+  width: 295px;
+  font-family: Poppins;
+}
+
+.m1 .tit {
+  width: 250px;
+  margin-bottom: 35px;
+}
+
+.m1 img {
+  width: 100%;
+}
+
+
+.m2 {
+  margin-top: 83px;
+}
+
+.m2 .subtit {
+  color: rgba(33, 33, 33, 1);
+  /* font-size: 12px; */
+  margin-top: 50px;
+}
+
+.m3 {
+  margin-top: 120px;
+}
+
+.m3 .process {
+  background: #fbf4f4;
+  margin-top: 60px;
+  border-radius: 18px;
+  width: 337px;
+  height: 231px;
+  color: rgba(33, 33, 33, 1);
+  justify-content: center;
+}
+
+.m3 .probor {
+  align-items: flex-start;
+}
+
+.m3 .probor div:nth-child(1) {
+  margin-right: 50px;
+}
+
+.m3 .typeface {
+  margin-top: 67px;
+}
+
+.m3 .tit {
+  font-size: 14px;
+}
+
+.m3 .typeface div:nth-child(1) {
+  margin-bottom: 25px;
+}
+
+.m3 .enum {
+  font-size: 26px;
+  margin-top: 57px;
+}
+
+.m3 .enum div:nth-child(2) {
+  font-weight: 700;
+  margin-top: 21px;
+}
+
+.m4 {
+  margin-top: 120px;
+  position: relative;
+  overflow: hidden;
+}
+
+.m4 .topbg {
+  height: 230px;
+  background: rgba(224, 226, 233, 1);
+  position: absolute;
+  z-index: -1;
+  width: 100%;
+}
+
+.m4 .m4-row {
+  padding-top: 150px;
+}
+
+.m4 .m4-row:nth-child(2) {
+  margin-top: 57px;
+  padding-top: 0px;
+}
+
+.m4 .m4-row img {
+  width: 242px;
+  height: 285px;
+}
+
+.m5 {
+  margin-top: 120px;
+}
+.m5 h1 {
+  margin-bottom: 60px;
+}
+
+@media (max-width: 992px) {
+  #p4 {
+    margin-top: 110px;
+  }
+
+  .m1-row {
+    display: inline-block;
+  }
+
+  .m1 .tit {
+    margin-bottom: 32px;
+  }
+
+  .m1 .subtit {
+    width: 100%;
+  }
+
+  .m1 .book {
+    margin-top: 80px;
+  }
+
+  .m2 {
+    margin-top: 125px;
+  }
+
+  .m2 .subtit,
+  .m1 .subtit {
+    font-size: 14px;
+  }
+
+  .m3 .storm {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+  }
+
+  .m3 .process {
+    margin-top: 100px;
+    width: 100%;
+  }
+
+  .m3 .Typeface {
+    margin-top: 100px;
+  }
+
+  .m3 .typeface {
+    margin-top: 50px;
+  }
+
+  .m3 .enum {
+    margin-top: 100px;
+    letter-spacing: 2px;
+    font-size: 24px;
+  }
+
+  .m4 .m4-row {
+    padding-top: 50px;
+  }
+
+  .m4 .m4-row .opt {
+    margin-bottom: 33px;
+
+  }
+  .m4 .m4-row .opt:last-child {
+    margin-bottom: 0px;
+  }
+  .m4 .topbg {
+    height: 286px;
+  }
+  .m4 .picbor {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 34px 0 34px;
+    margin-top: 50px;
+  }
+
+  .m4 .picbor div {
+    width: 45%;
+  }
+
+  .m4 .m4-row img {
+    width: 100%;
+    height: auto;
+  }
+}

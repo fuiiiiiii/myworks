@@ -382,9 +382,10 @@ h3 {
   .problem,
   .solution .rule .bor p,
   .solution .menu,
-  .audi {
-    padding-right: 15px;
-    padding-left: 15px;
+  .audi,
+  .model-bor {
+    padding-right: 0;
+    padding-left: 0;
   }
 
   .problem,

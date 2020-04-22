@@ -1,8 +1,15 @@
 .home .banner {
-  height: 500px;
+  /* height: 500px; */
+  padding-top: 254px;
+  padding-bottom: 169px;
   display: flex;
-  align-items: center;
+  align-items: flex-start;
   position: relative;
+}
+
+.home h1 {
+  font-size: 30px;
+  font-weight: 500;
 }
 
 .home .banner .ico {
@@ -10,7 +17,7 @@
 }
 
 .home .banner .tit {
-  font-size: 25px;
+  font-size: 30px;
   letter-spacing: 2px;
 }
 
@@ -26,16 +33,18 @@
 }
 
 .home .prodlist {
-  margin-top: 150px;
+  margin-top: 144px;
 }
-
+.prodlist h1 {
+  margin-bottom: 60px;
+}
 .pbor {
   overflow: hidden;
   height: 290px;
 }
 
 .fbor {
-  margin: 30px 0 30px 0;
+  margin: 33px 0 33px 0;
 }
 
 .wechat {
@@ -92,16 +101,27 @@
   .home .banner {
     display: inline-block;
     height: auto;
-    padding-bottom: 60px; 
+    padding-bottom: 52px; 
+    padding-top: 158px;
   }
   .home .prodlist {
-    margin-top: 60px;
+    margin-top: 95px;
   }
   .home .banner .tit {
-    margin-top: 120px;
+    /* margin-top: 120px; */
+    font-size: 22px;
+  }
+  .prodlist h1 {
+    font-size: 22px;
+    font-weight: 500;
+    margin-bottom: 50px;
+  }
+  .fbor {
+    margin-top: 20px;
+    margin-bottom: 60px;
   }
   .home .aboutme {
-    margin-top: 30px;
+    margin-top: 56px;
   }
   .home .Leichi {
     border: 1px solid #DDDDDd;

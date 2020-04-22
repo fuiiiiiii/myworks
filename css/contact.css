@@ -1,6 +1,12 @@
 .contact .photo img {
-width: 50%;
+  width: 243px;
+  height: 243px;
 }
+
+.contact {
+  margin-top: 150px;
+}
+
 
 .contact .photo {
   text-align: center;
@@ -9,40 +15,60 @@ width: 50%;
 
 .contact .personal h1 {
   letter-spacing: 2px;
-  font-size: 35px;
+  font-size: 30px;
   margin-top: 0px;
+  font-weight: 500;
 }
 
 .contact .section {
-  margin-bottom: 20px;
+  margin-top: 35px;
+  font-size: 12px;
+  width: 434px;
+  color: rgba(8, 6, 43, 1);
 }
+
 .resume {
   margin-top: 60px;
 }
+
 .contact .section div {
-  background:#BB3939;
+  background: #BB3939;
   color: white;
   width: 170px;
   height: 45px;
   text-align: center;
   font-weight: 700;
   line-height: 45px;
-  border-radius: 23px;
+  border-radius: 20px;
 }
 
-@media (max-width: 992px) { 
+@media (max-width: 992px) {
+  .contact {
+    margin-top: 158px;
+  }
   .contact .personal h1 {
-    font-size: 16px;
+    font-size: 22px;
+    font-weight: 500;
   }
-.mb-bor {
-  text-align: center;
-}
+
+  .mb-bor {
+    text-align: center;
+  }
+
   .beautiful {
-    width: 50%;
-    margin: 30px 0 30px 0;
+    width: 67%;
+    margin: 70px 0 50px 0;
   }
+
   .contact .section {
     display: flex;
     justify-content: center;
+    width: 100%;
+    font-size: 14px;
+    color:rgba(0,0,0,1);
+  }
+
+  .contact .resume {
+    margin-top: 52px;
   }
 }

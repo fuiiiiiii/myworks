@@ -1,4 +1,14 @@
 /* CSS RESET */
+@font-face {
+  font-family: NewsGothicStd;
+  src: url('../font/NewsGothicStd.otf')
+}
+
+@font-face {
+  font-family: Poppins;
+  src: url('../font/Poppins-Light.ttf')
+}
+
 * {
   box-sizing: border-box;
 }
@@ -9,7 +19,7 @@ html {
 
 body {
   margin: 0;
-  font-family: 'Montserrat', helvetica, arial, sans-serif !important;
+  font-family: 'Poppins', 'Montserrat', helvetica, arial, sans-serif !important;
   font-size: 14px;
   color: #4a4a4a;
   line-height: 27px;
@@ -22,7 +32,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: 'Montserrat', helvetica, sans-serif !important;
+  font-family: 'NewsGothicStd', 'Montserrat', helvetica, sans-serif !important;
 }
 
 /* h1 {
@@ -106,7 +116,7 @@ li {
   text-align: center;
   padding: 1.8em 2em;
   text-decoration: none;
-  font-family: 'Montserrat', helvetica, sans-serif !important;
+  font-family: 'Poppins', 'Montserrat', helvetica, sans-serif !important;
   line-height: 30px;
   clear: right;
   text-decoration: none;
@@ -182,6 +192,21 @@ h1 {
 .leftbtn img,
 .rightbtn img {
   width: 50px;
+}
+
+.DownloadBtn {
+
+  text-align: center;
+  overflow: hidden;
+}
+
+.DownloadBtn span {
+  background: rgba(187, 57, 57, 1);
+  border-radius: 20px;
+  padding: 15px 28px 15px 28px;
+  color: white;
+  display: inline-block;
+  margin: 0px auto;
 }
 
 @media (max-width: 768px) {
@@ -295,7 +320,7 @@ h1 {
   }
 
   .next {
-    margin-top: 80px;
+    margin-top: 40px;
   }
 
   h1 {

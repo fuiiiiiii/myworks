@@ -8,6 +8,12 @@
 
 .m1 .book {
   text-align: center;
+  margin-left: 67px;
+}
+
+.m1 .book img {
+  width: 572px;
+  height: 458px;
 }
 
 .m1 {
@@ -18,12 +24,18 @@
 .m1 .subtit {
   /* font-size: 12px; */
   color: rgba(8, 6, 43, 1);
-  width: 295px;
+  width: 335px;
   font-family: Poppins;
+  font-size: 12px;
+  line-height: 17px;
 }
 
 .m1 .tit {
   width: 250px;
+}
+
+.m1 .design {
+  font-size: 16px;
   margin-bottom: 35px;
 }
 
@@ -79,6 +91,8 @@
 .m3 .enum {
   font-size: 26px;
   margin-top: 57px;
+  font-family: NewsGothicStd;
+  letter-spacing: 5px;
 }
 
 .m3 .enum div:nth-child(2) {
@@ -100,13 +114,23 @@
   width: 100%;
 }
 
-.m4 .m4-row {
-  padding-top: 150px;
+.m4 .m4-row:nth-child(1) {
+  padding-top: 62px;
+  text-align: center;
+  font-weight: 500;
+  font-size: 18px;
 }
 
 .m4 .m4-row:nth-child(2) {
-  margin-top: 57px;
+  margin-top: 71px;
   padding-top: 0px;
+  text-align: center;
+}
+
+.m4 .m4-row:nth-child(3) {
+  margin-top: 58px;
+  padding-top: 0px;
+  text-align: center;
 }
 
 .m4 .m4-row img {
@@ -117,8 +141,21 @@
 .m5 {
   margin-top: 120px;
 }
+
 .m5 h1 {
   margin-bottom: 60px;
+}
+
+.m5 .picbor {
+  padding-left: 0px;
+}
+
+.m5 .row {
+  margin-bottom: 50px;
+}
+
+.m5 .DownloadBtn {
+  margin-top: 113px;
 }
 
 @media (max-width: 992px) {
@@ -131,15 +168,22 @@
   }
 
   .m1 .tit {
-    margin-bottom: 32px;
+    width: auto;
   }
 
   .m1 .subtit {
     width: 100%;
+    line-height: 22px;
   }
 
   .m1 .book {
     margin-top: 80px;
+    margin-left: 0px;
+  }
+
+  .m1 .book img {
+    width: 100%;
+    height: auto;
   }
 
   .m2 {
@@ -184,12 +228,20 @@
     margin-bottom: 33px;
 
   }
+
+  .m4 .m4-row:nth-child(1) {
+    text-align: left;
+    font-weight: 500;
+  }
+
   .m4 .m4-row .opt:last-child {
     margin-bottom: 0px;
   }
+
   .m4 .topbg {
     height: 286px;
   }
+
   .m4 .picbor {
     display: flex;
     justify-content: space-between;
@@ -204,5 +256,12 @@
   .m4 .m4-row img {
     width: 100%;
     height: auto;
+  }
+
+  .m5 .row {
+    margin-bottom: 12px;
+  }
+  .m5 .DownloadBtn {
+    margin-top: 88px;
   }
 }

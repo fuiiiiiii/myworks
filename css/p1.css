@@ -1,6 +1,6 @@
 .banner {
   position: relative;
-  margin-top: 30px;
+  margin-top: 122px;
 }
 
 .problem,
@@ -49,15 +49,15 @@ h3 {
 
 .problem .subtitle {
   margin-top: 60px;
-  font-weight: 700;
+  font-weight: 500;
 }
 
 .problem .icon {
-  margin-right: 60px;
+  margin-right: 44px;
 }
 
 .problem .font {
-  margin-top: 30px;
+  margin-top: 38px;
 }
 
 .problem .icon img {
@@ -76,11 +76,12 @@ h3 {
   color: white;
   font-weight: 700;
   margin-top: 60px;
-  width: 90%;
+  width: 626px;
+  margin-left: -4em;
 }
 
 .solution .menu span {
-  margin-left: 60%;
+  margin-left: 383px;
 }
 
 .solution .menu-selected {
@@ -89,8 +90,8 @@ h3 {
   border-radius: 0 35px 35px 0;
   position: absolute;
   top: 0;
-  width: 50%;
   padding-left: 4em;
+  width: 339px;
 }
 
 .solution .rule {
@@ -98,30 +99,29 @@ h3 {
   margin-top: 30px;
 }
 
-.solution .rule .bor {
-  flex: 1;
+.solution .rule .bor:nth-child(2) {
+  margin-left: 80px;
 }
 
 .solution h3 {
   padding-left: 4em;
 }
 
-.solution .rule .bor p {
-  margin-left: 4em;
-}
 
-.solution .rule .bor:nth-child(2) p {
+
+/* .solution .rule .bor:nth-child(2) p {
   margin-left: 10%;
-}
+} */
 
 .solution .note {
   background: #fbf4f4;
-  width: 270px;
-  height: 160px;
+  /* width: 270px;
+  height: 160px; */
   border-radius: 20px;
   margin: 0px auto;
   margin-top: 60px;
   display: flex;
+  padding: 30px;
 }
 
 .solution .note .note-bor {
@@ -142,7 +142,7 @@ h3 {
 
 
 .line {
-  width: 33%;
+  width: 339px;
   position: absolute;
   bottom: 0px;
   height: 4px;
@@ -152,14 +152,14 @@ h3 {
 }
 
 .solution-bor {
-  padding-bottom: 80px;
+  padding-bottom: 92px;
 }
 
 .audi .tit {
   display: flex;
   align-items: flex-end;
-  font-weight: 700;
-  margin-top: 60px;
+  font-weight: 500;
+  margin-top: 57px;
 }
 
 .audi .con ul li {

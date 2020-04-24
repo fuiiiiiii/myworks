@@ -210,6 +210,49 @@ h1 {
   margin: 0px auto;
 }
 
+/* 作品页banner样式 */
+.m1 .book {
+  text-align: center;
+  margin-left: 67px;
+}
+
+.m1 .book img {
+  width: 572px;
+  height: 458px;
+}
+
+.m1 {
+  display: flex;
+  align-items: center;
+}
+
+.m1 .subtit {
+  /* font-size: 12px; */
+  color: rgba(8, 6, 43, 1);
+  width: 335px;
+  font-family: Poppins;
+  font-size: 12px;
+  line-height: 17px;
+}
+
+.m1 .tit {
+  width: 250px;
+}
+
+.m1 .design {
+  font-size: 16px;
+  margin-bottom: 35px;
+}
+
+.m1 img {
+  width: 100%;
+}
+
+#p1,
+#p4 {
+  margin-top: 172px;
+}
+
 @media (max-width: 768px) {
   .header {
     height: 65px;
@@ -357,6 +400,7 @@ h1 {
     margin-left: 27px;
     text-align: left;
   }
+
   .closebor img {
     width: 15px;
     height: 15px;

@@ -349,7 +349,9 @@ h1 {
     padding-left: 34px;
     padding-right: 34px;
   }
-
+  .no-padd {
+    padding: 0;
+  }
   .mb-bor {
     display: block;
   }
@@ -419,4 +421,35 @@ h1 {
   .menubor p {
     margin-bottom: 35px;
   }
+
+  .m1-row {
+    display: inline-block;
+  }
+
+  .m1 .tit {
+    width: auto;
+  }
+
+  .m1 .subtit {
+    width: 100%;
+    line-height: 22px;
+  }
+
+  .m1 .book {
+    margin-top: 80px;
+    margin-left: 0px;
+  }
+
+  .m1 .book img {
+    width: 100%;
+    height: auto;
+  }
+
+  #p1,
+  #p4 {
+    margin-top: 110px;
+  }
+  /* .model-bor {
+    padding: 0;
+} */
 }

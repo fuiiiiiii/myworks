@@ -259,11 +259,12 @@ h1 {
 }
 
 
-.bottombtn{
+.bottombtn {
   margin-top: 113px;
   text-align: center;
   overflow: hidden;
 }
+
 .bottombtn span {
   background: rgba(187, 57, 57, 1);
   border-radius: 20px;
@@ -369,9 +370,11 @@ h1 {
     padding-left: 34px;
     padding-right: 34px;
   }
+
   .no-padd {
     padding: 0;
   }
+
   .mb-bor {
     display: block;
   }
@@ -470,7 +473,23 @@ h1 {
   #p5 {
     margin-top: 110px;
   }
+
   /* .model-bor {
     padding: 0;
 } */
+  .f18 {
+    font-size: 16px;
+  }
+
+  .mb-nopdd-r {
+    padding-right: 0px;
+  }
+
+  .mb-nopdd-l {
+    padding-left: 0px;
+  }
+
+  .bottombtn {
+    margin-top: 100px;
+  }
 }

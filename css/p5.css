@@ -143,3 +143,111 @@
   width: 167px;
   height: 361px;
 }
+
+@media (max-width: 992px) {
+
+  .m5 h1,
+  .m6 h1,
+  .m7 h1,
+  .m9 h1,
+  .m10 h1 {
+    margin-bottom: 50px;
+  }
+
+  .m3 ul li {
+    font-size: 12px;
+  }
+
+  .m3 .list {
+    display: inline-block;
+  }
+
+  .m3 .Audience {
+    margin-top: 40px;
+  }
+
+  .m3 .Audience li,
+  .m3 .Audience .tit {
+    margin-bottom: 26px;
+  }
+
+  .m3 .Audience li:last-child {
+    margin-bottom: 0px;
+  }
+
+  .m2,
+  .m4,
+  .m5,
+  .m6,
+  .m7,
+  .m8,
+  .m9,
+  .m10,
+  .Iconography-bor {
+    margin-top: 100px;
+  }
+
+  .m4 .tit {
+    margin-bottom: 50px;
+  }
+
+  .m4 .subtit {
+    margin-bottom: 100px;
+  }
+
+  .m4 .subtit:last-child {
+    margin-bottom: 0px;
+  }
+
+  .m4 .desc {
+    width: auto;
+  }
+
+  .m5 .picture {
+    width: 100%;
+    height: auto;
+    margin-bottom: 50px;
+  }
+
+  .m5 .picture:last-child {
+    margin-bottom: 0px;
+  }
+
+  .m7 .picture1,
+  .m7 .picture2 {
+    width: 100%;
+    height: auto;
+  }
+
+  .m7 .picture {
+    margin-top: 22px;
+  }
+
+  .m8 .picture {
+    width: 100%;
+    height: auto;
+  }
+
+  .Colors {
+    overflow: hidden;
+  }
+
+  .Secondary {
+    margin-top: 50px;
+  }
+
+  .colorcode {
+    margin-top: 20px;
+  }
+
+  .Interface {
+    display: inline-block;
+  }
+  .m10 .item .tit {
+    margin-bottom: 0px;
+  }
+  .m10 .item {
+    width: 50%;
+    float: left;
+  }
+}

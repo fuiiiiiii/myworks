@@ -249,8 +249,28 @@ h1 {
 }
 
 #p1,
-#p4 {
+#p4,
+#p5 {
   margin-top: 172px;
+}
+
+.f18 {
+  font-size: 18px;
+}
+
+
+.bottombtn{
+  margin-top: 113px;
+  text-align: center;
+  overflow: hidden;
+}
+.bottombtn span {
+  background: rgba(187, 57, 57, 1);
+  border-radius: 20px;
+  padding: 15px 28px 15px 28px;
+  color: white;
+  display: inline-block;
+  margin: 0px auto;
 }
 
 @media (max-width: 768px) {
@@ -446,7 +466,8 @@ h1 {
   }
 
   #p1,
-  #p4 {
+  #p4,
+  #p5 {
     margin-top: 110px;
   }
   /* .model-bor {

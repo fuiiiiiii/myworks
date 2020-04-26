@@ -1,0 +1,145 @@
+.m2 {
+  margin-top: 83px;
+}
+
+.m2 .subtit {
+  color: rgba(33, 33, 33, 1);
+  /* font-size: 12px; */
+  margin-top: 50px;
+}
+
+.m3 .bgbor {
+  background: #fbf4f4;
+  padding-top: 60px;
+  padding-bottom: 60px;
+  margin-top: 60px;
+  border-radius: 20px;
+}
+
+.m3 .list {
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 60px;
+}
+
+.m3 .list:nth-child(2) {
+  margin-bottom: 0;
+}
+
+.m4 {
+  margin-top: 122px;
+}
+
+.m4 .tit {
+  margin-bottom: 60px;
+}
+
+.m4 .desc {
+  width: 200px;
+  font-size: 12px;
+}
+
+.m5,
+.m6,
+.m7,
+.m9,
+.m10 {
+  margin-top: 122px;
+}
+
+.m5 h1,
+.m6 h1,
+.m7 h1,
+.m9 h1,
+.m10 h1 {
+  margin-bottom: 60px;
+}
+
+.m5 .picture {
+  width: 346px;
+  height: 305px;
+}
+
+.m7 .pname {
+  font-size: 16px;
+}
+
+.m7 .picture1 {
+  width: 158px;
+  height: 235px;
+}
+
+.m7 .picture {
+  margin-top: 60px;
+}
+
+.m7 .picture2 {
+  width: 250px;
+  height: 263px;
+}
+
+.m8 {
+  background: rgba(224, 226, 233, 1);
+  padding-top: 66px;
+  padding-bottom: 66px;
+  margin-top: 122px;
+}
+
+.m8 .picture {
+  width: 630px;
+  height: 250px;
+  margin-top: 66px;
+}
+
+.m9 .jellie {
+  width: 61px;
+  height: 43px;
+}
+
+.m9 .Iconography1 {
+  width: 59px;
+  height: 41px;
+}
+
+.m9 .Iconography-bor {
+  margin-top: 122px;
+}
+
+.m9 .Iconography2 {
+  width: 39px;
+  height: 54px;
+}
+
+.m9 .tit {
+  margin-bottom: 30px;
+}
+
+.m9 .Iconography3 {
+  width: 50px;
+  height: 50px;
+}
+
+.m9 .jellie-sub {
+  padding-top: 43px;
+}
+
+.m10 .item {
+  width: 20%;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.m10 .item .tit {
+  margin-bottom: 30px;
+  width: 100px;
+  height: 35px;
+}
+
+.m10 .iphoneui {
+  width: 167px;
+  height: 361px;
+}

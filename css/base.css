@@ -6,7 +6,7 @@
 
 @font-face {
   font-family: Poppins;
-  src: url('../font/Poppins-Light.ttf')
+  src: url('../font/Poppins-Medium.ttf')
 }
 
 * {
@@ -32,7 +32,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: 'NewsGothicStd', 'Montserrat', helvetica, sans-serif !important;
+  font-family: 'Poppins', 'Montserrat', helvetica, sans-serif !important;
 }
 
 /* h1 {

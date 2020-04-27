@@ -121,7 +121,7 @@
 }
 
 .m9 .jellie-sub {
-  padding-top: 43px;
+  padding-top: 63px;
 }
 
 .m10 .item {
@@ -142,6 +142,9 @@
 .m10 .iphoneui {
   width: 167px;
   height: 361px;
+}
+.colorcode {
+  margin-top: 20px;
 }
 
 @media (max-width: 992px) {
@@ -211,6 +214,7 @@
 
   .m5 .picture:last-child {
     margin-bottom: 0px;
+    margin-top: 50px;
   }
 
   .m7 .picture1,

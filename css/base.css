@@ -9,6 +9,15 @@
   src: url('../font/Poppins-Medium.ttf')
 }
 
+@font-face {
+  font-family: Montserrat-Medium;
+  src: url('../font/Montserrat-Medium.ttf')
+}
+@font-face {
+  font-family: Montserrat-Regular;
+  src: url('../font/Montserrat-Regular.ttf')
+}
+
 * {
   box-sizing: border-box;
 }
@@ -172,8 +181,8 @@ li {
 
 h1 {
   /* font-size: 25px; */
-  font-size: 18px;
-  font-weight: 700;
+  font-size: 21px;
+  font-weight: 500;
   margin: 0;
   letter-spacing: 2px;
 }
@@ -251,7 +260,8 @@ h1 {
 
 #p1,
 #p4,
-#p5 {
+#p5,
+#p6 {
   margin-top: 172px;
 }
 
@@ -261,7 +271,7 @@ h1 {
 
 
 .bottombtn {
-  margin-top: 113px;
+  margin-top: 140px;
   text-align: center;
   overflow: hidden;
 }

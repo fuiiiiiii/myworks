@@ -1,0 +1,191 @@
+#p6 .m1 .book img {
+  width: 100%;
+}
+
+#p6 .m1 .subtit:last-child {
+  margin-top: 30px;
+}
+
+.m2 {
+  margin-top: 83px;
+}
+
+.m4,
+.m5,
+.m6,
+.m7,
+.m8 {
+  margin-top: 140px;
+}
+
+.m2 .subtit {
+  color: rgba(33, 33, 33, 1);
+  /* font-size: 12px; */
+  margin-top: 50px;
+}
+
+.m3 .bgbor {
+  background: #fbf4f4;
+  padding-top: 128px;
+  padding-bottom: 128px;
+  margin-top: 122px;
+  padding-left: 95px;
+  padding-right: 95px;
+  border-radius: 20px;
+}
+
+.m3 .list {
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+}
+
+
+.m3 .list ul {
+  margin-top: 24px;
+}
+
+.m4 .subtit {
+  width: 508px;
+}
+
+.m4 .subtit {
+  margin-top: 60px;
+}
+
+.m4 .subtit:last-child {
+  margin-top: 15px;
+}
+
+.m4 .picture {
+  width: 398px;
+  height: 279px;
+  float: right;
+}
+
+.m5 .PrimaryColors {
+  width: 619px;
+}
+
+.m5 .Secondary {
+  width: 400px;
+}
+
+.m5 .flex-parent {
+  justify-content: space-between;
+}
+
+.m5 .optbor {
+  display: flex;
+  justify-content: space-between;
+}
+
+.m5 .opt .coloropt {
+  width: 180px;
+  height: 180px;
+  background: rgba(232, 217, 234, 1);
+
+}
+
+.m5 .opt .colorfont {
+  margin-top: 21px;
+}
+
+.m5 .opt:nth-child(2) .coloropt {
+  background: rgba(221, 230, 243, 1);
+}
+
+.m5 .opt:nth-child(3) .coloropt {
+  background: rgba(187, 187, 189, 1);
+}
+
+.m5 .Secondary .opt:nth-child(1) .coloropt {
+  background: rgba(0, 0, 0, 1);
+}
+
+.m5 .Secondary .opt:nth-child(2) .coloropt {
+  background: rgba(255, 255, 255, 1);
+  border: 1px solid rgba(112, 112, 112, 1);
+  width: 179px;
+  height: 179px;
+}
+
+.m5 .PrimaryColors h1,
+.m5 .Secondary h1 {
+  margin-bottom: 70px;
+}
+
+.m6 .Montserrat {
+  font-family: Montserrat-Medium;
+  font-size: 21px;
+}
+
+.m6 .Regular {
+  font-family: Montserrat-Regular;
+  font-weight: 400;
+  color: rgba(8, 6, 43, 1);
+}
+
+.m6 .Caveat {
+  font-size: 32px;
+}
+
+.m6 .Lorem {
+  font-size: 21px;
+}
+
+.m6 .flex-parent {
+  margin-top: 70px;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.m7 .wpic {
+  display: flex;
+  overflow: hidden;
+  width: 100%;
+  margin-top: 70px;
+}
+
+.m7 .wpic .pic1 {
+  width: 398px;
+  float: left;
+}
+
+.m7 .wpic .pic2 {
+  overflow: hidden;
+  position: relative;
+  margin-left: 151px;
+}
+
+.m7 .wpic .pic2 img {
+  width: 179px;
+}
+.m8 .wpic {
+  overflow: hidden;
+  position: relative;
+}
+.m8 .wpic .pic1 {
+  width: 838px;
+  padding: 16px 105px 49px 61px;
+  background: rgba(244, 244, 244, 1);
+  float: left;
+}
+
+.m8 .wpic .pic2 {
+  width: 165px;
+  margin-left: 55px;
+  float: left;
+}
+
+.m9 .pbor:nth-child(2n+1) {
+  margin-top: 100px;
+}
+.m9 .Mockups {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 70px;
+}
+.m9  .pbor {
+  width: 190px;
+}

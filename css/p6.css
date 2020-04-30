@@ -128,16 +128,19 @@
 
 .m6 .Caveat {
   font-size: 32px;
+  font-family:  Caveat-Regular;
 }
 
 .m6 .Lorem {
   font-size: 21px;
+  font-family:  Caveat-Regular;
 }
 
 .m6 .flex-parent {
   margin-top: 70px;
   justify-content: space-between;
   align-items: flex-start;
+  letter-spacing: 2px;
 }
 
 .m7 .wpic {
@@ -305,7 +308,6 @@
 
   .m6 .Caveat {
     font-size: 24px;
-    font-family:  Caveat-Regular;
   }
 
   .m6 .flex-parent .Regular {
@@ -314,7 +316,6 @@
 
   .m6 .Lorem {
     font-size: 22px;
-    font-family:  Caveat-Regular;
   }
 
   .m7 .wpic {

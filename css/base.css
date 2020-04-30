@@ -13,9 +13,15 @@
   font-family: Montserrat-Medium;
   src: url('../font/Montserrat-Medium.ttf')
 }
+
 @font-face {
   font-family: Montserrat-Regular;
   src: url('../font/Montserrat-Regular.ttf')
+}
+
+@font-face {
+  font-family: Caveat-Regular;
+  src: url('../font/Caveat-Regular.ttf')
 }
 
 * {
@@ -201,7 +207,7 @@ h1 {
 
 .leftbtn img,
 .rightbtn img {
-  width: 50px;
+  width: 40px;
 }
 
 .DownloadBtn {
@@ -405,7 +411,7 @@ h1 {
 
   h1 {
     font-size: 18px;
-    font-weight: 700;
+    /* font-weight: 700; */
   }
 
   .footerbor {
@@ -481,7 +487,8 @@ h1 {
 
   #p1,
   #p4,
-  #p5 {
+  #p5,
+  #p6 {
     margin-top: 110px;
   }
 
@@ -490,6 +497,10 @@ h1 {
 } */
   .f18 {
     font-size: 16px;
+  }
+
+  .mb-nopdd {
+    padding: 0;
   }
 
   .mb-nopdd-r {

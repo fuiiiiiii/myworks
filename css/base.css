@@ -10,8 +10,24 @@
 }
 
 @font-face {
-  font-family: Montserrat-Medium;
+  font-family: Caveat-Regular;
+  src: url('../font/Caveat-Regular.ttf')
+}
+
+
+@font-face {
+  font-family: Poppins-Regular;
   src: url('../font/Montserrat-Medium.ttf')
+}
+
+@font-face {
+  font-family: Poppins-Light;
+  src: url('../font/Poppins-Light.ttf')
+}
+
+@font-face {
+  font-family:Poppins-Bold;
+  src: url('../font/Poppins-Bold.ttf')
 }
 
 @font-face {
@@ -35,9 +51,8 @@ html {
 body {
   margin: 0;
   font-family: 'Poppins', 'Montserrat', helvetica, arial, sans-serif !important;
-  font-size: 14px;
-  color: #4a4a4a;
-  line-height: 27px;
+  font-size: 13px;
+  color: #212121;
   -webkit-font-smoothing: subpixel-antialiased;
 }
 
@@ -245,18 +260,19 @@ h1 {
   /* font-size: 12px; */
   color: rgba(8, 6, 43, 1);
   width: 335px;
-  font-family: Poppins;
-  font-size: 12px;
+  font-family: Poppins-Regular;
+  font-size: 13px;
   line-height: 17px;
 }
 
 .m1 .tit {
   width: 250px;
-  font-size: 16px;
+  font-size: 18px;
+  font-weight: 500;
 }
 
 .m1 .design {
-  font-size: 16px;
+  font-size: 18px;
   margin-bottom: 35px;
 }
 
@@ -289,6 +305,18 @@ h1 {
   color: white;
   display: inline-block;
   margin: 0px auto;
+}
+
+.pr {
+  font-family: Poppins-Regular;
+}
+
+.pl {
+  font-family: Poppins-Light;
+}
+
+.pb {
+  font-family: Poppins-Bold;
 }
 
 @media (max-width: 768px) {

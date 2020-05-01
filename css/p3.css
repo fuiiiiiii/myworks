@@ -1,0 +1,195 @@
+.m2,
+.m3,
+.m4,
+.m5,
+.m6,
+.userflow,
+.Wireframe,
+.Interface {
+  margin-top: 141px;
+}
+
+.m2 .subtit {
+  color: rgba(33, 33, 33, 1);
+  margin-top: 70px;
+  width: 818px;
+}
+
+.m3 .opt {
+  display: flex;
+  margin-top: 70px;
+}
+
+.m3 .opt .col-md-4 {
+  flex: 1;
+  margin-left: 100px;
+}
+
+.m3 .opt .col-md-4:first-child {
+  margin-left: 0px;
+}
+
+.m3 .opt .col-md-4 .subtit {
+  height: 80px;
+}
+
+.m3 .opt .col-md-4 .picture {
+  margin-top: 70px;
+}
+
+
+
+.m4bor,
+.m6bor {
+  background: rgba(242, 243, 239, 1);
+  padding-top: 70px;
+  padding-bottom: 70px;
+  margin-top: 53px;
+  width: 100%;
+  overflow: hidden;
+}
+
+.m4 .picture,
+.m6bor .picture {
+  width: 510px;
+  height: 212px;
+}
+
+.m5 .chart .cbor {
+  overflow: hidden;
+  margin-bottom: 70px;
+}
+
+.m5 .chart img {
+  width: 45%;
+  float: left;
+  height: 155px;
+}
+
+.m5 .chartbor {
+  margin-top: 46px;
+}
+
+.m5 .chart .c2 {
+  float: right;
+}
+
+.m6 .picture {
+  width: 70px;
+  height: 70px;
+}
+
+.m6bor {
+  background: rgba(251, 244, 244, 1);
+}
+
+.m6 .flex-parent {
+  align-items: flex-start;
+  font-size: 15px;
+}
+
+.m6 .primaryta {
+  margin-right: 34px;
+}
+
+.m6 ul {
+  margin-top: 58px;
+}
+
+.m6 ul li {
+  font-size: 13px;
+}
+
+.m7 .picture {
+  width: 179px;
+  height: 180px;
+  margin-top: 35px;
+  margin-bottom: 70px;
+}
+
+.m7 .Audience {
+  font-size: 18px;
+}
+
+.m7 .subtit {
+  line-height: 22px;
+}
+
+.m8 .chartbor {
+  margin-top: 78px;
+}
+
+.m8 .chartbor ul li {
+  font-size: 13px;
+}
+
+.m8 .Audience {
+  font-size: 18px;
+  margin-bottom: 35px;
+}
+
+.m9 .list {
+  margin-top: 70px;
+}
+
+.userflow .uinfor {
+  margin-top: 35px;
+}
+
+.userflow .name {
+  font-size: 18px;
+  margin-bottom: 35px;
+}
+
+.userflow .face {
+  width: 260px;
+  height: 260px;
+  overflow: hidden;
+}
+
+.userflow .info {
+  margin-top: 49px;
+}
+
+.userflow .info li {
+  font-size: 13px;
+}
+
+.userflow .do {
+  margin-bottom: 150px;
+}
+
+.Wireframe .flex-parent div {
+  width: 174px;
+  height: 311px;
+  flex: 1;
+  margin-left: 46px;
+}
+.Wireframe .flex-parent:first-child {
+  margin-bottom: 44px;
+}
+.Wireframe .flex-parent img:first-child {
+  margin-left: 0px;
+}
+.Interface  .flex-parent {
+  align-items: flex-start;
+}
+.Interface  .flex-parent .opt{
+  width: auto;
+  height: auto;
+  flex: 1;
+  margin-left: 80px;
+}
+.Interface  .flex-parent .opt:first-child{
+  margin-left: 0px;
+  margin-bottom: 70px;
+}
+.Interface .pagename, .Interface .subtit{
+  text-align: center;
+}
+.Interface .pagename {
+  margin-bottom: 27px;
+}
+.Interface .m4bor {
+  background: white;
+}

@@ -159,37 +159,251 @@
   margin-bottom: 150px;
 }
 
-.Wireframe .flex-parent div {
+.Wireframe .flex-parent .wopt {
   width: 174px;
   height: 311px;
   flex: 1;
   margin-left: 46px;
 }
+
 .Wireframe .flex-parent:first-child {
   margin-bottom: 44px;
 }
+
 .Wireframe .flex-parent img:first-child {
   margin-left: 0px;
 }
-.Interface  .flex-parent {
+
+.Interface .flex-parent {
   align-items: flex-start;
 }
-.Interface  .flex-parent .opt{
+
+.Interface .flex-parent .opt {
   width: auto;
   height: auto;
   flex: 1;
   margin-left: 80px;
 }
-.Interface  .flex-parent .opt:first-child{
+
+.Interface .flex-parent .opt:first-child {
   margin-left: 0px;
   margin-bottom: 70px;
 }
-.Interface .pagename, .Interface .subtit{
+
+.Interface .pagename,
+.Interface .subtit {
   text-align: center;
 }
+
 .Interface .pagename {
   margin-bottom: 27px;
 }
+
 .Interface .m4bor {
   background: white;
+}
+
+.Wireframe3 .flex-parent:first-child {
+  margin-bottom: 0px;
+}
+
+.Interface3 .flex-parent .opt:first-child {
+  margin-bottom: 0px;
+}
+
+@media (max-width: 992px) {
+
+  .m2,
+  .m3,
+  .m4,
+  .m5,
+  .m6,
+  .userflow,
+  .Wireframe,
+  .Interface {
+    margin-top: 100px;
+  }
+
+  .m2 .subtit {
+    width: auto;
+    margin-top: 50px;
+  }
+
+  .m3 .opt {
+    margin-top: 50px;
+    display: inline-block;
+  }
+
+  .m3 .opt .col-md-4 .picture {
+    margin-top: 50px;
+    width: 70%;
+  }
+
+  .m3 .opt .col-md-4 {
+    margin-left: 0px;
+    margin-bottom: 70px;
+  }
+
+  .m3 .opt .col-md-4:last-child {
+    margin-bottom: 0px;
+  }
+
+  .m3 .imgbor {
+    text-align: center;
+  }
+
+  .m4 .flex-parent {
+    display: inline-block;
+  }
+
+  .m4 .picture {
+    width: 100%;
+    height: auto;
+  }
+
+  .m4 .subtit {
+    margin-top: 30px;
+  }
+
+  .m4bor {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin-top: 50px;
+  }
+
+  .m5 .chart .cbor {
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+
+  .m5 .chart img {
+    width: 142px;
+    height: 101px;
+  }
+
+  .m6 {
+    margin-top: 50px;
+  }
+
+  .m6 .picture {
+    width: 56px;
+    height: 56px;
+  }
+
+  .m6 .flex-parent:first-child {
+    margin-bottom: 37px;
+  }
+
+  .m6 ul {
+    margin-top: 31px;
+  }
+
+  .m6bor {
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+
+  .m7 .Audience {
+    margin-bottom: 25px;
+  }
+
+  .m3 .opt .col-md-4 {
+    margin-bottom: 50px;
+  }
+
+  .m7 .opt .col-md-4 .picture {
+    width: 86px;
+    height: 87px;
+    height: auto;
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+
+  .m8 .chartbor {
+    margin-top: 50px;
+  }
+
+  .m8 .Audience {
+    font-size: 14px;
+  }
+
+  .m8 .col-md-6 {
+    line-height: 35px;
+  }
+
+  .m8 .chartbor ul li {
+    font-size: 12px;
+  }
+
+  .m8 .col-md-6:last-child {
+    margin-top: 50px;
+  }
+
+  .m9 .list {
+    margin-top: 50px;
+  }
+
+  .m9 .list ul li {
+    font-size: 12px;
+    line-height: 35px;
+  }
+
+  .userflow .do {
+    margin-bottom: 50px;
+  }
+
+  .userflow .name {
+    margin-bottom: 30px;
+  }
+
+  .userflow .face {
+    width: 142px;
+    height: 142px;
+    margin-right: 20px;
+  }
+
+  .userflow .info {
+    margin-top: 0px;
+  }
+
+  .userflow .uinfor-bor {
+    display: flex;
+    align-items: center;
+  }
+
+  .userflow .photobor {
+    margin-bottom: 25px;
+  }
+
+  .userflow .name {
+    font-size: 14px;
+  }
+
+  .Wireframe .flex-parent .wopt {
+    margin-left: 26px;
+    height: auto;
+  }
+
+  .Wireframe .stepbor {
+    margin-top: 25px;
+  }
+
+  .Interface .pagename {
+    margin-top: 23px;
+    margin-bottom: 32px;
+    font-size: 12px;
+  }
+
+  .Interface .subtit {
+    font-size: 12px;
+  }
+
+  .Interface .m4bor {
+    padding-top: 0px;
+    padding-bottom: 0px;
+  }
+
+  .Interface .mb-bor .col-md-12 .row:not(:last-child) {
+    margin-bottom: 50px;
+  }
 }

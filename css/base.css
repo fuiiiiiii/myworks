@@ -319,6 +319,17 @@ h1 {
   font-family: Poppins-Bold;
 }
 
+
+.no-marg-l {
+  margin-left: 0 !important;
+}
+.no-marg-r {
+  margin-right: 0;
+}
+.mb-flex-bor {
+  display: none;
+}
+
 @media (max-width: 768px) {
   .header {
     height: 65px;
@@ -353,7 +364,9 @@ h1 {
 
 @media (max-width: 992px) {
 
-
+  body {
+    font-size: 14px;
+  }
   .container {
     padding-right: 34px;
     padding-left: 34px;
@@ -424,7 +437,13 @@ h1 {
     display: block;
   }
 
+  .mb-flex-bor {
+    display: flex;
+  }
   .lg-bor {
+    display: none;
+  }
+  .lg-flex-bor {
     display: none;
   }
 

@@ -29,6 +29,7 @@
   font-family: Poppins-Bold;
   src: url('../font/Poppins-Bold.ttf')
 }
+
 @font-face {
   font-family: Poppins-SemiBold;
   src: url('../font/Poppins-SemiBold.ttf')
@@ -260,9 +261,11 @@ h1 {
   display: flex;
   align-items: center;
 }
+
 .m1 .m1-row {
   width: 100%;
 }
+
 .m1 .subtit {
   /* font-size: 12px; */
   color: rgba(8, 6, 43, 1);
@@ -337,6 +340,7 @@ h1 {
 .pb {
   font-family: Poppins-Bold;
 }
+
 .psb {
   font-family: Poppins-SemiBold;
 }
@@ -470,7 +474,7 @@ h1 {
   }
 
   .lg-flex-bor {
-    display: none;
+    display:inline-block;
   }
 
   .model-bor {
@@ -548,6 +552,10 @@ h1 {
     line-height: 22px;
   }
 
+  .m1 .m1-row {
+    width: auto;
+  }
+
   .m1 .book {
     margin-top: 80px;
     margin-left: 0px;
@@ -588,4 +596,20 @@ h1 {
   .bottombtn {
     margin-top: 100px;
   }
+}
+
+
+
+
+.scaleImg:hover {
+  transform: scale(1.2);
+  -webkit-transform: scale(1.2);
+  /*Safari 和 Chrome*/
+  -moz-transform: scale(1.2);
+  /*Firefox*/
+  -ms-transform: scale(1.2);
+  /*IE9*/
+  -o-transform: scale(1.2);
+  /*Opera*/
+  transition-duration: 0.5s;
 }

@@ -192,9 +192,11 @@
   width: 400px;
   height: 250px;
 }
+
 .m10 .picture:last-child {
   width: 374px;
 }
+
 .secbor {
   margin-top: 70px;
 }
@@ -208,6 +210,7 @@
   width: 400px;
   height: 200px;
 }
+
 .m12 .lbor img:last-child {
   margin-top: 26px;
 }
@@ -215,20 +218,119 @@
 .m12 .opt {
   margin-top: 35px;
 }
+
 .m12 ul {
   list-style: disc;
   overflow: visible;
   padding-left: 17px;
 }
+
 .m12 ul li {
   list-style-position: outside;
   color: #BB3939;
   font-size: 13px;
 }
+
 .m12 ul li span {
   color: #1C1C1C;
 }
 
 .model-bor:last-child {
   margin-top: 0px;
+}
+
+
+@media (max-width: 768px) {
+  #p2 .m1 .book img {
+    width: 100%;
+    height: auto;
+  }
+
+
+
+  #p2 .model-bor {
+    margin-top: 0px;
+  }
+
+  
+  #p2 .modelTop {
+    margin-top: 100px;
+  }
+
+  .m3 .subtit {
+    margin-top: 50px;
+  }
+  .m4 .picture {
+    width: 100%;
+  }
+  .m4 .fontbor div {
+    width: 100%;
+  }
+  .m5 .conbor {
+    margin-top: 50px;
+  }
+
+  .m5 .mb-bor {
+    margin-bottom: 50px ;
+  }
+  .m6bor .lbor img {
+    width: 100%;
+    height: auto;
+  }
+  .m6bor .rbor {
+    margin-left: 0px;
+    margin-top: 100px;
+  }
+  .m6bor {
+    margin-bottom: 0;
+    padding-bottom: 52px;
+  }
+  .m7 .modeltit {
+    margin-bottom: 50px
+  }
+  .m7 .lbor img,.m7 .rbor img,.m7 .desc,
+  .m8 .logobor img{
+    width: 100%;
+    height: auto;
+  }
+  .m7 .rbor,.m7 .desc {
+    margin-top: 50px;
+  }
+  .m9 .fontbor {
+    margin-top: 50px;
+  }
+  .m9 .imgbor {
+    width: 100%;
+    margin-top: 50px;
+  }
+  .m9 .fontbor .psb {
+    margin-bottom: 30px;
+  }
+  .m9 .flexitem,.m9 .flexitem:nth-child(2),
+  .m9 .flexitem:nth-child(3) {
+    margin-left: 0px;
+    width: auto;
+  }
+  .m9 .flexitem:nth-child(2),
+  .m9 .flexitem:nth-child(3) {
+    margin-top: 50px;
+  }
+  .m9 .desc {
+    margin-top: 15px;
+  }
+
+  .m10 .picture,.m10 .picture:last-child,.m11 .picture {
+    width: 100%;
+    height: auto;
+  }
+  .m10 .picture:last-child {
+    margin-top: 50px;
+  }
+  .secbor {
+    margin-top: 50px;
+  }
+  .m7 .tit {
+    font-family: Poppins-Regular;
+    font-size: 14px;
+  }
 }

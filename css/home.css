@@ -18,7 +18,35 @@
 
 .home .banner .tit {
   font-size: 30px;
-  letter-spacing: 2px;
+  letter-spacing: 1px;
+}
+
+.home .banner .pel {
+  font-size: 18px;
+}
+
+@-webkit-keyframes bounce {
+
+  0%,
+  20%,
+  50%,
+  80%,
+  100% {
+    transform: translateY(0)
+  }
+
+  40% {
+    transform: translateY(-30px)
+  }
+
+  60% {
+    transform: translateY(-15px)
+  }
+}
+
+.bounce {
+  -webkit-animation: bounce 2s infinite;
+  -webkit-animation-fill-mode: both;
 }
 
 .home .arrow {
@@ -30,22 +58,26 @@
   margin: -20px;
   width: 40px;
   height: 25px;
+  cursor: pointer;
 }
+
+
 
 .home .prodlist {
   margin-top: 144px;
 }
+
 .prodlist h1 {
   margin-bottom: 60px;
-  font-weight: 700;
 }
+
 .pbor {
   overflow: hidden;
   height: 290px;
 }
 
 .fbor {
-  margin: 60px 0 60px 0;
+  margin: 35px 0 60px 0;
 }
 
 .wechat {
@@ -84,7 +116,7 @@
   transform: rotate(35deg);
 }
 
-.home .Magazine  {
+.home .Magazine {
   justify-content: center;
   border: 1px solid #DDDDDd;
 }
@@ -102,37 +134,45 @@
   .home .banner {
     display: inline-block;
     height: auto;
-    padding-bottom: 52px; 
+    padding-bottom: 52px;
     padding-top: 158px;
   }
+
   .home .prodlist {
     margin-top: 95px;
   }
+
   .home .banner .tit {
     /* margin-top: 120px; */
     font-size: 22px;
   }
+
   .wechat {
     display: flex;
     align-items: center;
   }
+
   .book img {
     width: 100%;
   }
+
   .prodlist h1 {
     font-size: 22px;
     font-weight: 500;
     margin-bottom: 50px;
   }
+
   .fbor {
     margin-top: 20px;
     margin-bottom: 60px;
   }
+
   .home .aboutme {
     margin-top: 56px;
   }
+
   .home .Leichi {
     border: 1px solid #DDDDDd;
-    
+
   }
 }

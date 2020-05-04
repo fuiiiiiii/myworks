@@ -382,11 +382,18 @@ h1 {
   color: white;
   justify-content: center;
   height: 150px;
+  flex-direction: column;
 }
 
 .footerbor {
 
   margin-top: 150px;
+}
+
+
+.footer img {
+  width: 34px;
+  height: 34px;
 }
 
 @media (max-width: 992px) {
@@ -474,7 +481,7 @@ h1 {
   }
 
   .lg-flex-bor {
-    display:inline-block;
+    display: inline-block;
   }
 
   .model-bor {
@@ -597,9 +604,15 @@ h1 {
     margin-top: 100px;
   }
 }
+a {
+  text-align: center;
+}
 
 
-
+.scaleImg {
+  cursor: pointer;
+  transition: all 0.6s;
+}
 
 .scaleImg:hover {
   transform: scale(1.2);
@@ -611,5 +624,5 @@ h1 {
   /*IE9*/
   -o-transform: scale(1.2);
   /*Opera*/
-  transition-duration: 0.5s;
+  transition: all 1s;
 }

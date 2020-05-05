@@ -127,7 +127,8 @@ ul {
 }
 
 li {
-  color: black;
+  color: #212121;
+  font-family: Poppins-Regular;
 }
 
 .flex-parent {
@@ -198,6 +199,10 @@ li {
 
 .tit {
   /* font-weight: 700; */
+  /* letter-spacing: 1px; */
+}
+
+.titltbox {
   letter-spacing: 1px;
 }
 
@@ -214,13 +219,12 @@ h1 {
   font-size: 21px;
   font-weight: 500;
   margin: 0;
-  letter-spacing: 2px;
+  letter-spacing: 1px;
 }
 
 .next {
   display: flex;
   justify-content: space-between;
-  font-weight: 700;
   margin-top: 150px;
 }
 
@@ -279,15 +283,19 @@ h1 {
 }
 
 .m1 .tit {
-  width: 250px;
+  /* width: 250px;
   font-size: 18px;
-  font-weight: 500;
+  font-weight: 500; */
+  /* width:271px; */
+  font-size: 18px;
+  letter-spacing: 1px;
 }
 
 .m1 .design {
   font-size: 18px;
   margin-bottom: 35px;
   font-family: Poppins-Light;
+  letter-spacing: 1px;
 }
 
 .m1 img {
@@ -321,11 +329,13 @@ h1 {
   margin-top: 140px;
   text-align: center;
   overflow: hidden;
+  font-family: Poppins-SemiBold;
+  letter-spacing: 1px;
 }
 
 .bottombtn span {
   background: rgba(187, 57, 57, 1);
-  border-radius: 20px;
+  border-radius: 23px;
   padding: 15px 28px 15px 28px;
   color: white;
   display: inline-block;

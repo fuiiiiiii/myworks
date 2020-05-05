@@ -45,6 +45,7 @@
   .contact {
     margin-top: 158px;
   }
+
   .contact .personal h1 {
     font-size: 22px;
     font-weight: 500;
@@ -61,13 +62,15 @@
 
   .contact .section {
     display: flex;
-    justify-content: center;
+    justify-content: left;
     width: 100%;
     font-size: 14px;
-    color:rgba(0,0,0,1);
+    color: rgba(0, 0, 0, 1);
   }
 
   .contact .resume {
     margin-top: 52px;
+    display: flex;
+    justify-content: center;
   }
 }

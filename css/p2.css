@@ -1,7 +1,9 @@
 #p2 .m1 .book {
   text-align: right;
 }
-
+.m1 .subtit,.m1 .design {
+  width:350px;
+}
 #p2 .m1 .book img {
   width: 509px;
   height: 289px;
@@ -234,7 +236,10 @@
 .m12 ul li span {
   color: #1C1C1C;
 }
-
+.m13 .lbor img,.m13 .rbor img {
+  width: 400px;
+  height: 366px;
+}
 .model-bor:last-child {
   margin-top: 0px;
 }
@@ -255,6 +260,7 @@
   
   #p2 .modelTop {
     margin-top: 100px;
+    font-family: Poppins-Regular;
   }
 
   .m3 .subtit {

@@ -61,13 +61,17 @@
 }
 
 .m5 .chart img {
-  width: 45%;
+  width: 224px;
   float: left;
-  height: 155px;
+  height: 159px;
 }
 
 .m5 .chartbor {
   margin-top: 46px;
+}
+
+.m5 .chartbor .picture {
+  width: 96%;
 }
 
 .m5 .chart .c2 {
@@ -96,9 +100,6 @@
   margin-top: 58px;
 }
 
-.m6 ul li {
-  font-size: 13px;
-}
 
 .m7 .picture {
   width: 179px;
@@ -113,6 +114,9 @@
 
 .m7 .subtit {
   line-height: 22px;
+}
+.m7 .col-md-4:nth-child(2) {
+  margin-left: -15px;
 }
 
 .m8 .chartbor {
@@ -165,6 +169,9 @@
   flex: 1;
   margin-left: 46px;
 }
+.Wireframe .flex-parent .wopt img {
+  border: 1px solid #000000;
+}
 
 .Wireframe .flex-parent:first-child {
   margin-bottom: 44px;
@@ -173,23 +180,32 @@
 .Wireframe .flex-parent img:first-child {
   margin-left: 0px;
 }
-
+.Interface .m4bor {
+  margin-top: 0px;
+}
 .Interface .flex-parent {
   align-items: flex-start;
 }
+.Interface .flex-parent:last-child .opt {
 
+  margin-bottom: 0px;
+}
+.Interface .flex-parent:first-child {
+  margin-bottom: 70px;
+}
+.Interface .flex-parent:last-child {
+  margin-bottom: 0px;
+}
+.Interface .flex-parent  .opt:first-child {
+  margin-left: 0px;
+
+}
 .Interface .flex-parent .opt {
   width: auto;
   height: auto;
   flex: 1;
   margin-left: 80px;
 }
-
-.Interface .flex-parent .opt:first-child {
-  margin-left: 0px;
-  margin-bottom: 70px;
-}
-
 .Interface .pagename,
 .Interface .subtit {
   text-align: center;

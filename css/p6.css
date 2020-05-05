@@ -1,9 +1,10 @@
 #p6 .m1 .book img {
   width: 100%;
+  height: auto;
 }
 
 #p6 .m1 .subtit:last-child {
-  margin-top: 30px;
+  margin-top: 25px;
 }
 
 .m2 {
@@ -22,6 +23,10 @@
   color: rgba(33, 33, 33, 1);
   /* font-size: 12px; */
   margin-top: 50px;
+}
+
+.m3 .tit {
+  font-size: 21px;
 }
 
 .m3 .bgbor {
@@ -110,9 +115,10 @@
   height: 179px;
 }
 
-.m5 .PrimaryColors h1,
-.m5 .Secondary h1 {
+.m5 .PrimaryColors .tit,
+.m5 .Secondary .tit {
   margin-bottom: 70px;
+  font-size: 18px;
 }
 
 .m6 .Montserrat {
@@ -126,14 +132,19 @@
   color: rgba(8, 6, 43, 1);
 }
 
+.m6 .Regular div:last-child,
+.m6 .Lorem div:last-child {
+  margin-top: 10px;
+}
+
 .m6 .Caveat {
   font-size: 32px;
-  font-family:  Caveat-Regular;
+  font-family: Caveat-Regular;
 }
 
 .m6 .Lorem {
   font-size: 21px;
-  font-family:  Caveat-Regular;
+  font-family: Caveat-Regular;
 }
 
 .m6 .flex-parent {
@@ -184,8 +195,21 @@
   float: left;
 }
 
-.m9 .pbor:nth-child(2n+1) {
+/* .m9 .pbor:nth-child(2n+1) {
   margin-top: 100px;
+} */
+
+.m9 .pbor:nth-child(1) {
+  margin-top: 0px;
+}
+.m9 .pbor:nth-child(2) {
+  margin-top: 134px;
+}
+.m9 .pbor:nth-child(3) {
+  margin-top: 40px;
+}
+.m9 .pbor:nth-child(4) {
+  margin-top: 134px;
 }
 
 .m9 .Mockups {
@@ -203,6 +227,7 @@
   .m1 .subtit {
     font-size: 14px;
   }
+
   .m2,
   .m3 .bgbor,
   .m4,
@@ -342,8 +367,9 @@
     padding: 6px 39px 18px 22px;
     margin-top: 50px;
   }
+
   .m8 .mb-bor {
-    color:rgba(110,110,110,1);
+    color: rgba(110, 110, 110, 1);
     width: 100%;
     font-size: 12px;
     text-align: center;
@@ -357,32 +383,39 @@
     width: auto;
     margin-left: 0px;
   }
+
   .m9 .Mockups {
     display: none;
   }
-  .m9 .mb-bor  {
+
+  .m9 .mb-bor {
     display: flex;
     justify-content: space-between;
     margin-top: 50px;
   }
-  .m9 .mb-bor  .left {
-padding-right: 15px;
+
+  .m9 .mb-bor .left {
+    padding-right: 15px;
   }
-  .m9 .mb-bor  .right {
+
+  .m9 .mb-bor .right {
     padding-left: 15px;
-      }
-  .m9 .mb-bor  .left div:nth-child(2) img {
+  }
+
+  .m9 .mb-bor .left div:nth-child(2) img {
     margin-top: 65px;
   }
-  .m9 .mb-bor  .right div:nth-child(1) img {
+
+  .m9 .mb-bor .right div:nth-child(1) img {
     margin-top: 174px;
   }
-  .m9 .mb-bor  .right div:nth-child(2) img {
+
+  .m9 .mb-bor .right div:nth-child(2) img {
     margin-top: 65px;
   }
 
   .bottombtn span {
     padding: 22px 47px 19px 47px;
-    border-radius:26px;
+    border-radius: 26px;
   }
 }

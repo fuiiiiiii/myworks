@@ -12,7 +12,7 @@
   background: #fbf4f4;
   padding-top: 60px;
   padding-bottom: 60px;
-  margin-top: 60px;
+  margin-top: 141px;
   border-radius: 20px;
 }
 
@@ -22,7 +22,11 @@
   justify-content: center;
   margin-bottom: 60px;
 }
-
+.m3 .tit {
+  margin-bottom: 27px;
+  letter-spacing: 1px;
+  font-size: 21px;
+}
 .m3 .list:nth-child(2) {
   margin-bottom: 0;
 }
@@ -32,11 +36,14 @@
 }
 
 .m4 .tit {
+  font-family: Poppins;
   margin-bottom: 60px;
+  letter-spacing: 1px;
+  font-size: 21px;
 }
 
 .m4 .desc {
-  width: 200px;
+  width: 240px;
   font-size: 12px;
 }
 
@@ -113,6 +120,7 @@
 
 .m9 .tit {
   margin-bottom: 30px;
+  font-size: 18px;
 }
 
 .m9 .Iconography3 {
@@ -134,9 +142,10 @@
 }
 
 .m10 .item .tit {
-  margin-bottom: 30px;
-  width: 100px;
-  height: 35px;
+  margin-bottom: 10px;
+  /* width: 100px; */
+  height: 45px;
+  font-size: 18px;
 }
 
 .m10 .iphoneui {

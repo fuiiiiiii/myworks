@@ -226,6 +226,8 @@ h1 {
   display: flex;
   justify-content: space-between;
   margin-top: 150px;
+   font-family:  Poppins-SemiBold;
+   font-size: 17px;
 }
 
 .leftbtn,
@@ -246,11 +248,12 @@ h1 {
 
 .DownloadBtn span {
   background: rgba(187, 57, 57, 1);
-  border-radius: 20px;
+  border-radius: 23px;
   padding: 15px 28px 15px 28px;
   color: white;
   display: inline-block;
   margin: 0px auto;
+  letter-spacing: 1px;
 }
 
 /* 作品页banner样式 */
@@ -340,6 +343,7 @@ h1 {
   color: white;
   display: inline-block;
   margin: 0px auto;
+  letter-spacing: 1px;
 }
 
 .pr {

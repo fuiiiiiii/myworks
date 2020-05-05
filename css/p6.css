@@ -269,6 +269,7 @@
 
   .m3 .list .tit {
     font-weight: 500;
+    font-size: 16px;
   }
 
   .m4 .subtit {
@@ -417,5 +418,9 @@
   .bottombtn span {
     padding: 22px 47px 19px 47px;
     border-radius: 26px;
+  }
+
+  .m5 .PrimaryColors .tit, .m5 .Secondary .tit {
+    font-size: 16px;
   }
 }

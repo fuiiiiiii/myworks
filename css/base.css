@@ -343,7 +343,6 @@ h1 {
   color: white;
   display: inline-block;
   margin: 0px auto;
-  letter-spacing: 1px;
 }
 
 .pr {
@@ -455,7 +454,9 @@ h1 {
     margin-top: 18px;
     font-size: 12px;
   }
-
+  .next {
+    font-size: 12px;
+  }
   body {
     font-size: 14px;
   }

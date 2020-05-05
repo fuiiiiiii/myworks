@@ -250,8 +250,12 @@
     width: 100%;
     height: auto;
   }
-
-
+  .m1 .design {
+    width:184px;
+  }
+  .m1 .subtit {
+    width: 100%;
+  }
 
   #p2 .model-bor {
     margin-top: 0px;

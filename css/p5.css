@@ -165,13 +165,16 @@
   .m10 h1 {
     margin-bottom: 50px;
   }
-
+  .m3 .tit {
+    font-size: 16px;
+  }
   .m3 ul li {
     font-size: 12px;
   }
 
   .m3 .list {
     display: inline-block;
+    width: 100%;
   }
 
   .m3 .Audience {
@@ -187,6 +190,12 @@
     margin-bottom: 0px;
   }
 
+  .m3 .colbor {
+    padding-right: 15px;
+    padding-left: 15px;
+  }
+
+
   .m2,
   .m4,
   .m5,
@@ -201,8 +210,11 @@
 
   .m4 .tit {
     margin-bottom: 50px;
+    font-size: 18px;
   }
-
+  .m9 .tit {
+    font-size: 14px;
+  }
   .m4 .subtit {
     margin-bottom: 100px;
   }
@@ -262,5 +274,24 @@
   .m10 .item {
     width: 50%;
     float: left;
+  }
+
+  .m9 .jellie-sub {
+    font-family: Poppins-Regular;
+  }
+
+  .m9 .Iconography-bor .Iconography {
+    font-size: 18px;
+    letter-spacing: 1px;
+  }
+
+  .m10 .item .tit {
+    font-size: 14px;
+    font-family: Poppins-Regular;
+  }
+
+  .m7 .pname {
+    font-size: 14px;
+    font-family: Poppins-Regular;
   }
 }

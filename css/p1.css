@@ -591,7 +591,7 @@ margin: 21px 0px 35px 0px;
   }
 
   .feature .subtit .bgimg {
-    left: 34px;
+    /* left: 34px; */
   }
 
   .feature .m-last-phone {
@@ -662,5 +662,9 @@ margin: 21px 0px 35px 0px;
   .banner,
   .audi {
     padding: 0px;
+  }
+
+  .feature .Flow {
+    margin-bottom: 30px;
   }
 }

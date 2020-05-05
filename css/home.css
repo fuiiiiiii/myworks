@@ -137,7 +137,9 @@
     padding-bottom: 52px;
     padding-top: 158px;
   }
-
+  .home .banner .pel {
+    font-size: 14px;
+  }
   .home .prodlist {
     margin-top: 95px;
   }
@@ -177,5 +179,10 @@
   .home .Leichi {
     border: 1px solid #DDDDDd;
 
+  }
+
+  .home .arrow {
+    width: 26px;
+    height: 15px;
   }
 }

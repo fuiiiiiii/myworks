@@ -266,7 +266,9 @@
     margin-top: 100px;
     font-family: Poppins-Regular;
   }
-
+  .m6bor .tit {
+    font-size: 18px;
+  }
   .m3 .subtit {
     margin-top: 50px;
   }
@@ -315,6 +317,7 @@
   }
   .m9 .fontbor .psb {
     margin-bottom: 30px;
+    font-family: Poppins-SemiBold;
   }
   .m9 .flexitem,.m9 .flexitem:nth-child(2),
   .m9 .flexitem:nth-child(3) {

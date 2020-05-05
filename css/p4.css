@@ -208,10 +208,12 @@
 
   .m3 .storm {
     display: flex;
-    justify-content: space-between;
+    /* justify-content: space-between; */
     margin-top: 50px;
   }
-
+  .m3 .storm .Photography {
+    margin-left: 15%;
+  }
   .m3 .process {
     margin-top: 100px;
     width: 100%;

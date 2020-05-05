@@ -22,11 +22,13 @@
   justify-content: center;
   margin-bottom: 60px;
 }
+
 .m3 .tit {
   margin-bottom: 27px;
   letter-spacing: 1px;
   font-size: 21px;
 }
+
 .m3 .list:nth-child(2) {
   margin-bottom: 0;
 }
@@ -152,6 +154,7 @@
   width: 167px;
   height: 361px;
 }
+
 .colorcode {
   margin-top: 20px;
 }
@@ -165,11 +168,13 @@
   .m10 h1 {
     margin-bottom: 50px;
   }
+
   .m3 .tit {
     font-size: 16px;
   }
+
   .m3 ul li {
-    font-size: 12px;
+    /* font-size: 12px; */
   }
 
   .m3 .list {
@@ -212,9 +217,11 @@
     margin-bottom: 50px;
     font-size: 18px;
   }
+
   .m9 .tit {
-    font-size: 14px;
+    font-size: 15px;
   }
+
   .m4 .subtit {
     margin-bottom: 100px;
   }
@@ -268,9 +275,11 @@
   .Interface {
     display: inline-block;
   }
+
   .m10 .item .tit {
     margin-bottom: 0px;
   }
+
   .m10 .item {
     width: 50%;
     float: left;
@@ -294,4 +303,19 @@
     font-size: 14px;
     font-family: Poppins-Regular;
   }
+
+  .m9 .jellie,.m9 .Iconography1 {
+    width: 86px;
+    height: 61px;
+  }
+  .m9 .Iconography2 {
+    width: 44px;
+    height: 61px;
+  }
+
+  .m9 .Iconography3 {
+    width: 61px;
+    height: 61px;
+  }
+  
 }

@@ -344,7 +344,7 @@
   }
 
   .m8 .col-md-6 {
-    line-height: 35px;
+    line-height: 25px;
   }
 
   .m8 .chartbor ul li {
@@ -361,7 +361,7 @@
 
   .m9 .list ul li {
     font-size: 12px;
-    line-height: 35px;
+    line-height: 25px;
   }
 
   .userflow .do {
@@ -395,6 +395,10 @@
     font-size: 14px;
   }
 
+  .userflow .col-md-8 .name{
+    letter-spacing: 1px;
+    margin-top: 25px;
+  }
   .Wireframe .flex-parent .wopt {
     margin-left: 26px;
     height: auto;
@@ -406,12 +410,13 @@
 
   .Interface .pagename {
     margin-top: 23px;
-    margin-bottom: 32px;
+    margin-bottom: 0px;
     font-size: 12px;
   }
 
   .Interface .subtit {
     font-size: 12px;
+    margin-top: 25px;
   }
 
   .Interface .m4bor {
@@ -419,7 +424,11 @@
     padding-bottom: 0px;
   }
 
-  .Interface .mb-bor .col-md-12 .row:not(:last-child) {
-    margin-bottom: 50px;
+  .Interface .mb-bor .col-md-12 .row {
+    margin-top: 40px;
+  }
+
+  .m8 .Audience {
+    margin-bottom: 25px;
   }
 }

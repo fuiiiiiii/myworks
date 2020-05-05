@@ -17,11 +17,17 @@ $(document).ready(function () {
     $('.bounce').click(function () {
       $('html,body').animate({
         scrollTop: $('.prodlist').offset().top
-      }, 200); //距离body顶部为0，scrollTop
+      }, 200);
 
     })
   }
 
+
+  $('.toTop').click(function () {
+    $('html,body').animate({
+      scrollTop: 0
+    }, 200);
+  })
 
 });
 

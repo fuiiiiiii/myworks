@@ -110,10 +110,10 @@
 
 .home .sm img {
   width: 33%;
-  -moz-transform: rotate(35deg);
+  /* -moz-transform: rotate(35deg);
   -webkit-transform: rotate(35deg);
   -o-transform: rotate(35deg);
-  transform: rotate(35deg);
+  transform: rotate(35deg); */
 }
 
 .home .Magazine {

@@ -143,13 +143,23 @@ li {
   font-size: 15px;
 }
 
-.header  .logo {
+.header .logo {
   flex: 1 1 auto;
 }
 
+.header .h-bor {
+  position: relative;
+}
+
 .header .logo img {
-  
-  width: 25px;
+  position: absolute;
+  left: 50%;
+  margin-left: -12px;
+  /* top: 50%; */
+  top: 50%;
+  margin-top: -12px;
+  width: 24px;
+  height: 24px;
 }
 
 
@@ -169,6 +179,10 @@ li {
   text-decoration: none;
   margin: 0;
   cursor: pointer;
+}
+
+.nav a:last-child {
+  padding-right: 0px;
 }
 
 .nav a:hover {
@@ -233,8 +247,8 @@ h1 {
   display: flex;
   justify-content: space-between;
   margin-top: 150px;
-   font-family:  Poppins-SemiBold;
-   font-size: 17px;
+  font-family: Poppins-SemiBold;
+  font-size: 17px;
 }
 
 .leftbtn,
@@ -436,6 +450,17 @@ h1 {
 }
 
 @media (max-width: 992px) {
+
+  .header .logo img {
+    position: relative;
+    left: 0;
+    margin-left: 0;
+    top: 0;
+    margin-top: 0;
+    width: 24px;
+    height: 24px;
+  }
+
   .footerbor {
 
     margin-top: 60px;
@@ -452,7 +477,7 @@ h1 {
   }
 
   .footer img:last-child {
-    margin-left: 26px;
+    /* margin-left: 26px; */
     border-radius: 50%;
   }
 
@@ -460,9 +485,11 @@ h1 {
     margin-top: 18px;
     font-size: 12px;
   }
+
   .next {
     font-size: 12px;
   }
+
   body {
     font-size: 14px;
   }

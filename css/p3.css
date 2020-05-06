@@ -10,7 +10,8 @@
 }
 
 .m1 .book img {
-  width: 231px;
+  width: 201px;
+  height: auto;
 }
 
 .m1 .book {
@@ -33,7 +34,7 @@
 }
 
 .m3 .picture {
-  width: 231px;
+  width: 201px;
 }
 
 .m3 .opt .col-md-4 {

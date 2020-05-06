@@ -55,7 +55,7 @@
   position: absolute;
   bottom: 0;
   left: 50%;
-  margin: -20px;
+  margin: -15px;
   width: 30px;
   height: 15px;
   cursor: pointer;
@@ -81,7 +81,7 @@
 }
 
 .wechat {
-  background: #9cc460;
+  background: #d996ba;
   text-align: center;
 }
 
@@ -91,13 +91,16 @@
 }
 
 .book {
-  border: 1px solid #DDDDDd;
   text-align: center;
+  display: flex;
+  align-items: center;
+  background: #c3d3d6;;
 }
 
 .book img {
-  height: 100%;
-  width: 362px;
+  /* height: 100%;
+  width: 362px; */
+  width: 65%;
 }
 
 .home .sm {
@@ -118,12 +121,12 @@
 
 .home .Magazine {
   justify-content: center;
-  border: 1px solid #DDDDDd;
+  background: #917498;
 }
 
 
 .home .Magazine img {
-  width: 80%;
+  width: 65%;
 }
 
 .home .prodlist .picture {
@@ -154,10 +157,12 @@
     align-items: center;
   }
 
-  .book img {
-    width: 100%;
+  .book img,.home .Magazine img {
+    width: 90%;
   }
-
+  .home .sm img {
+    width: 50%;
+  }
   .prodlist h1 {
     font-size: 22px;
     font-weight: 500;

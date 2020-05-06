@@ -9,6 +9,14 @@
   margin-top: 141px;
 }
 
+.m1 .book img {
+  width: 231px;
+}
+
+.m1 .book {
+  margin-left: 190px;
+}
+
 .m2 .subtit {
   color: rgba(33, 33, 33, 1);
   margin-top: 70px;
@@ -18,6 +26,14 @@
 .m3 .opt {
   display: flex;
   margin-top: 70px;
+}
+
+.m3 .imgbor {
+  text-align: center;
+}
+
+.m3 .picture {
+  width: 231px;
 }
 
 .m3 .opt .col-md-4 {
@@ -115,6 +131,7 @@
 .m7 .subtit {
   line-height: 22px;
 }
+
 .m7 .col-md-4:nth-child(2) {
   margin-left: -15px;
 }
@@ -171,6 +188,7 @@
   flex: 1;
   margin-left: 46px;
 }
+
 .Wireframe .flex-parent .wopt img {
   border: 1px solid #000000;
 }
@@ -182,32 +200,40 @@
 .Wireframe .flex-parent img:first-child {
   margin-left: 0px;
 }
+
 .Interface .m4bor {
   margin-top: 0px;
 }
+
 .Interface .flex-parent {
   align-items: flex-start;
 }
+
 .Interface .flex-parent:last-child .opt {
 
   margin-bottom: 0px;
 }
+
 .Interface .flex-parent:first-child {
   margin-bottom: 70px;
 }
+
 .Interface .flex-parent:last-child {
   margin-bottom: 0px;
 }
-.Interface .flex-parent  .opt:first-child {
+
+.Interface .flex-parent .opt:first-child {
   margin-left: 0px;
 
 }
+
 .Interface .flex-parent .opt {
   width: auto;
   height: auto;
   flex: 1;
   margin-left: 80px;
 }
+
 .Interface .pagename,
 .Interface .subtit {
   text-align: center;
@@ -230,6 +256,13 @@
 }
 
 @media (max-width: 992px) {
+  .m1 .book img {
+    width: 70%;
+  }
+
+  .m1 .book {
+    margin-left: 0px;
+  }
 
   .m2,
   .m3,
@@ -250,6 +283,10 @@
   .m3 .opt {
     margin-top: 50px;
     display: inline-block;
+  }
+
+  .m3 .picture {
+    width: 100%;
   }
 
   .m3 .opt .col-md-4 .picture {
@@ -399,10 +436,11 @@
     font-size: 14px;
   }
 
-  .userflow .col-md-8 .name{
+  .userflow .col-md-8 .name {
     letter-spacing: 1px;
     margin-top: 25px;
   }
+
   .Wireframe .flex-parent .wopt {
     margin-left: 26px;
     height: auto;

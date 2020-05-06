@@ -298,7 +298,7 @@
   .m5 .subbor div {
     width: 100%;
   }
-  .m5 .mb-bor {
+  .m5 .mb-bor:first-child {
     margin-bottom: 50px ;
   }
   .m6bor .rbor img {

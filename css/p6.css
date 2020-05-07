@@ -418,6 +418,10 @@
   .bottombtn span {
     padding: 22px 47px 19px 47px;
     border-radius: 26px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    height: 44px;
+    line-height: 44px;
   }
 
   .m5 .PrimaryColors .tit, .m5 .Secondary .tit {

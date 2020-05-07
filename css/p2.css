@@ -244,7 +244,16 @@
 .m13 .lbor img,.m13 .rbor img {
   width: 400px;
   height: 366px;
+  border: 2px solid #212121;
 }
+
+.m13 .pcimg {
+  text-align: center;
+}
+.m13 .pcimg img {
+  width: 75%;
+}
+
 .model-bor:last-child {
   margin-top: 0px;
 }

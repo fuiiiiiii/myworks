@@ -22,7 +22,7 @@
 }
 
 .home .banner .pel {
-  font-size: 18px;
+  font-size: 16px;
 }
 
 @-webkit-keyframes bounce {
@@ -45,7 +45,7 @@
 }
 
 .bounce {
-  -webkit-animation: bounce 2s infinite;
+  -webkit-animation: bounce 3s infinite;
   -webkit-animation-fill-mode: both;
 }
 
@@ -56,8 +56,8 @@
   bottom: 0;
   left: 50%;
   margin: -15px;
-  width: 30px;
-  height: 15px;
+  width: 33px;
+  height: 20px;
   cursor: pointer;
 }
 
@@ -74,6 +74,7 @@
 .pbor {
   overflow: hidden;
   height: 290px;
+  background: #C5CCDD;
 }
 
 .fbor {

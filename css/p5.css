@@ -2,6 +2,9 @@
   text-align: center;
   margin-left: 197px;
 }
+.m1 .subtit {
+  width: 395px;
+}
 .m1 .book img {
   width: 311px;
   height: 417px;
@@ -170,6 +173,9 @@
 @media (max-width: 992px) {
   .m1 .book {
     margin-left: 0px;
+  }
+  .m1 .subtit {
+    width: 100%;
   }
   .m5 h1,
   .m6 h1,

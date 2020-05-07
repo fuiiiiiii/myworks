@@ -165,6 +165,12 @@ li {
 
 .header .h-bor .nav {
   flex: none;
+  
+  letter-spacing: 2px;
+}
+
+.header .h-bor .nav ul li:first-child {
+  margin-right: 20px;
 }
 
 .nav a {
@@ -364,6 +370,10 @@ h1 {
   color: white;
   display: inline-block;
   margin: 0px auto;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  height: 44px;
+  line-height: 44px;
 }
 
 .pr {

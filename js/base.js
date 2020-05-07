@@ -10,8 +10,8 @@ $(document).ready(function () {
     }, "slow");
   })
 
-  let href = location.href
-  if (href.indexOf('home') >= 0) {
+  let pathname = location.pathname
+  if (pathname.indexOf('index') >= 0 || pathname == '/') {
     typing()
 
     $('.bounce').click(function () {

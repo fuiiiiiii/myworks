@@ -165,7 +165,7 @@ li {
 
 .header .h-bor .nav {
   flex: none;
-  
+
   letter-spacing: 2px;
 }
 
@@ -206,6 +206,11 @@ li {
   float: right;
   font-size: 30px;
   cursor: pointer;
+}
+
+.ham img {
+  width: 24px;
+  height: 24px;
 }
 
 .mb-bor {
@@ -262,9 +267,17 @@ h1 {
   cursor: pointer;
 }
 
+.leftbtn img {
+  margin-right: 15px;
+}
+
+.rightbtn img {
+  margin-left: 15px;
+}
+
 .leftbtn img,
 .rightbtn img {
-  width: 40px;
+  width: 15px;
 }
 
 .DownloadBtn {
@@ -424,6 +437,16 @@ h1 {
   .h-m-bor {
     display: flex;
     padding-top: 52px;
+  }
+  .leftbtn img, .rightbtn img {
+    width: 10px;
+  }
+  .leftbtn img {
+    margin-right: 10px;
+  }
+  
+  .rightbtn img {
+    margin-left: 10px;
   }
 
 }

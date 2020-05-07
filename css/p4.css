@@ -142,11 +142,15 @@
   text-align: center;
 }
 
-.m4 .m4-row img {
+.m4 .m4-row .picture {
   width: 242px;
   height: 285px;
 }
-
+.m4 .m4-row .img90 {
+  /* transform:rotate(90deg);
+  height: 242px;
+  width: auto; */
+}
 .m5 {
   margin-top: 120px;
 }

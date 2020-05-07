@@ -2,10 +2,12 @@
   position: relative;
   margin-top: 122px;
 }
+
 .m1 .book img {
   width: 612px;
   height: 458px;
 }
+
 .problem,
 .banner,
 .audi {
@@ -71,10 +73,12 @@ h3 {
 .problem .desc {
   padding-right: 8%;
 }
+
 .solution {
   position: relative;
   padding-bottom: 106px;
 }
+
 .solution .menu {
   background: black;
   height: 35px;
@@ -209,9 +213,11 @@ h3 {
 .competitors .star {
   margin-top: 105px;
 }
+
 .competitors .star .tit {
   letter-spacing: 0px;
 }
+
 .competitors .google {
   margin-bottom: 20px;
 }
@@ -219,6 +225,7 @@ h3 {
 .competitors .star img {
   /* width: 100%; */
 }
+
 .competitors .star .star1 {
   width: 310px;
   height: 222px;
@@ -257,7 +264,7 @@ h3 {
 }
 
 .avalon .subtit {
-margin: 21px 0px 35px 0px;
+  margin: 21px 0px 35px 0px;
 }
 
 .avalon .pros {
@@ -359,7 +366,8 @@ margin: 21px 0px 35px 0px;
 }
 
 .feature .img5 {
-  width: 18.5%;
+  width: 21%;
+  margin-top: -25px;
 }
 
 .feature .labTit {
@@ -370,6 +378,7 @@ margin: 21px 0px 35px 0px;
 .testing {
   margin-top: 122px;
 }
+
 .testing .picture {
   width: 96%;
 }
@@ -430,6 +439,7 @@ margin: 21px 0px 35px 0px;
 }
 
 @media (max-width: 992px) {
+
   /* 
   .banner,
   .solution .menu-selected,
@@ -446,6 +456,7 @@ margin: 21px 0px 35px 0px;
     width: 100%;
     height: auto;
   }
+
   .problem,
   .solution,
   .audi,

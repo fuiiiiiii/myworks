@@ -183,12 +183,15 @@
   }
 
   .home .Leichi {
-    border: 1px solid #DDDDDd;
+    background: white;
 
   }
 
   .home .arrow {
     width: 26px;
     height: 15px;
+  }
+  .pbor {
+    height: 257px;
   }
 }

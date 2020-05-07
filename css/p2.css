@@ -396,4 +396,8 @@
   .m7 .tit {
     margin-bottom: 25px;
   }
+
+  .m13 .pcimg img {
+    width: 100%;
+  }
 }

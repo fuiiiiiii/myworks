@@ -3,6 +3,21 @@
   height: 243px;
 }
 
+a:link{
+  color: #fff;
+  text-decoration: none;
+}
+a:visited{
+	color: #fff;
+}
+a:hover{
+	color: #fff;
+}
+a:active{
+	color: #fff;
+}
+
+
 .contact {
   margin-top: 150px;
 }

@@ -348,6 +348,10 @@ h3 {
   overflow: hidden;
 }
 
+.Wireframe .Wireframe1 {
+  height: 330px;
+}
+
 .feature .Flow {
   margin-bottom: 10px;
 }
@@ -713,5 +717,9 @@ h3 {
 
   .feature .Flow {
     margin-bottom: 30px;
+  }
+
+  .Wireframe .Wireframe1 {
+    height: auto;
   }
 }

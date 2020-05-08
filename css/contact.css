@@ -7,12 +7,10 @@ a:link{
   color: #fff;
   text-decoration: none;
 }
-a:visited{
-}
-a:hover{
+.personal a:hover{
 	color: #fff;
 }
-a:active{
+.personal a:active{
 	color: #fff;
 }
 

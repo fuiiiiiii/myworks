@@ -162,8 +162,9 @@
 }
 
 .m10 .iphoneui {
-  width: 167px;
-  height: 361px;
+    /* width: 167px;
+    height: 361px; */
+    width: 70%;
 }
 
 .colorcode {

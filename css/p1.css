@@ -428,8 +428,16 @@ h3 {
   display: flex;
   justify-content: center;
 }
+
+.interface .phonelist .picture {
+  width: 70%;
+}
 .interface .phonelist:first-child {
   margin-top: 80px;
+}
+
+.interface .phonelist:not(:first-child) {
+  margin-top: 150px;
 }
 
 .interface .phonelist div {
